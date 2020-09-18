@@ -6,11 +6,11 @@
     "variables": {},
     "resources": [
         {
-            "name": "makudustorage-sa01",
+            "name": "makudustorage_sa01",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2019-06-01",
             "tags": {
-                "displayName": "makudustorage-sa01"
+                "displayName": "makudustorage_sa01"
             },
             "location": "[resourceGroup().location]",
             "kind": "StorageV2",
